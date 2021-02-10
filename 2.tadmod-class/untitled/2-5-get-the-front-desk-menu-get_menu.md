@@ -6,7 +6,7 @@
 get_menu($tag = 'toolbar'):string
 ```
 
-CopyGenerally, developers do not need to call this function actively, but call it in footer.php in the blank module, and use it with add\_menu\(\) to get the complete content of the menu.
+Generally, developers do not need to call this function actively, but call it in footer.php in the blank module, and use it with add\_menu\(\) to get the complete content of the menu.
 
 1. `$tag`: \(Default value `toolbar`\) template label name, the label preset in the template is`<{$toolbar}>`
 

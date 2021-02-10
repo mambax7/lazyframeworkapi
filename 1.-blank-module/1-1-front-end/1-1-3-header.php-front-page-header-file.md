@@ -5,7 +5,7 @@
 use Xmf\Request;
 use XoopsModules\Tadtools\TadUpFiles;
 
-//載入XOOPS主設定檔（必要）
+//Load XOOPS mainfile (required)
 include_once "../../mainfile.php";
 include_once 'preloads/autoloader.php';
 include_once "function.php";
@@ -18,7 +18,7 @@ $self = Request::getString('PHP_SELF', '', 'SERVER');
 $from = Request::getString('HTTP_REFERER', '', 'SERVER');
 $files_sn = Request::getInt('files_sn');
 
-//下載檔案
+//Download file
 if ($op == 'tufdl') {
     $TadUpFiles = new TadUpFiles(basename(__DIR__));
     $TadUpFiles->add_file_counter($files_sn);

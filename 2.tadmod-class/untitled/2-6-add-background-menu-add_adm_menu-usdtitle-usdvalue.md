@@ -6,7 +6,7 @@
 add_adm_menu($title, $value, $icon = 'images/admin/button.png'):object
 ```
 
-CopyUsed to set the management interface menu. In admin/menu.php, if the management interface has three pages, three sets of settings are required.
+Used to set the management interface menu. In admin/menu.php, if the management interface has three pages, three sets of settings are required.
 
 1. `$title`: Required Menu title, such as:`分類管理`
 2. `$value`: Required Menu link, such as:`admin/cate.php`

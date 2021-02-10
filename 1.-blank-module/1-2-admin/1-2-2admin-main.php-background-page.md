@@ -6,7 +6,7 @@ use XoopsModules\Tadtools\TadModData;
 use XoopsModules\Tadtools\Utility;
 require_once "header.php";
 
-$Model = new TadModData('模型資料表');
+$Model = new TadModData('Model Datatable');
 $clean = $Model->clean();
 
 switch ($op) {
@@ -15,15 +15,15 @@ switch ($op) {
         break;
 
     case "edit":
-        $Model->edit($clean['主鍵']);
+        $Model->edit($clean['primary key']);
         break;
 
     case "show":
-        $Model->show($clean['主鍵']);
+        $Model->show($clean['primary key']);
         break;
 
     case "update":
-        $Model->update($clean['主鍵']);
+        $Model->update($clean['primary key']);
         header("location:{$self}");
         exit;
 
@@ -33,7 +33,7 @@ switch ($op) {
         exit;
 
     case "destroy":
-        $Model->destroy($clean['主鍵']);
+        $Model->destroy($clean['primary key']);
         header("location:{$self}");
         exit;
 
@@ -52,9 +52,9 @@ In fact, the content is the same as the front page, so it is convenient to move 
 
 `switch()` Seven basic actions \(almost the concept of routing\) have been set in, of course, they can be increased or decreased according to the function of the page.
 
-`模型資料表`, Is the name of the data table that this page needs to use.
+`Module Datatable`, Is the name of the datatable that this page needs to use.
 
-`主鍵`Refers to the data table `primary key`
+`primary key` Refers to the data table `primary key`
 
 You can use more than one on the same page `模型資料表`, and the entity names \(such as `$Model`:\) need to be different to avoid mixing them.
 

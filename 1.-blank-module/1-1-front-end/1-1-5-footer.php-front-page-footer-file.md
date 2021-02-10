@@ -27,5 +27,5 @@ This file is used to set the default actions, the name of the template to be use
 
 Generally speaking, developers do not need to move to this file.
 
-tadtools&gt;=3.39 新增 $xoopsTpl-&gt;assign\('xoopsModuleConfig', $xoopsModuleConfig\);
+tadtools&gt;=3.39 Add $xoopsTpl-&gt;assign\('xoopsModuleConfig', $xoopsModuleConfig\);
 

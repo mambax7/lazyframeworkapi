@@ -8,7 +8,7 @@
 add_config($name, $title = '', $desc = '', $formtype = 'textbox', $valuetype = 'text', $default = '', $options = []):object
 ```
 
-CopyOne execution will create a set of background preferences for the module. Multiple sets can be used \(copy a few to use\), and it is not necessary to execute \(keep the annotations\), depending on whether the module needs to use the preference setting function.
+First execution will create a set of background preferences for the module. Multiple sets can be used \(copy a few to use\), and it is not necessary to execute \(keep the annotations\), depending on whether the module needs to use the preference setting function.
 
 1. `$name`: Required Preference English name
 2. `$title`：Preferences Chinese name

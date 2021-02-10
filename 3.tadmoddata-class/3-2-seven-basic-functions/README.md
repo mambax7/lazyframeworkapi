@@ -5,10 +5,10 @@
 Common CRUD functions
 
 1. `create()`: Add and create forms
-2. `edit($主鍵)`: Modify the form
-3. `show($主鍵)`: Display single content
-4. `update($主鍵)`: Update
+2. `edit($id)`: Modify the form //$id is Primary key
+3. `show($id)`: Display single content
+4. `update($id)`: Update
 5. `store()`: Save to add
-6. `destroy($主鍵)`: Delete data
+6. `destroy($id)`: Delete data
 7. `index()`: List all
 
