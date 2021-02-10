@@ -18,8 +18,6 @@ foreach ($lang as $const_arr) {
 $modversion = $TadMod->xoops_version();
 ```
 
-Copy
-
 The most important configuration file of the XOOPS module, only this file is considered a module.
 
 It is used to set basic information such as module name and version. It is also necessary to set whether to use before, background, template, database and other settings, as well as whether there are blocks, preferences and other information.

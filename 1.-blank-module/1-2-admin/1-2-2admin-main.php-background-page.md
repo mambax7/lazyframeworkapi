@@ -44,8 +44,6 @@ switch ($op) {
 require_once "footer.php";
 ```
 
-Copy
-
 Basically, the basic content of all pages in the background is like this \(only the file name is different\)
 
 In fact, the content is the same as the front page, so it is convenient to move the function from the background to the foreground in the future \(just pay attention to the permissions\)

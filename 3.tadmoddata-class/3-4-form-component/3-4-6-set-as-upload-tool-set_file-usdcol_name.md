@@ -6,7 +6,7 @@
 set_file($col_name = '', $index_mode = 'small', $show_mode = '', $subdir = '', $maxlength = '', $only_type = ''):object
 ```
 
-Binding specifies fields, and add upload feature \(to be with the `模組目錄_files_center` data table will have a role\), in addition, will have "binding field \_file" \(can be used as a file download grammar\) and "bind fields \_ The new field of "var" \(the detailed parameter of the file\) can also be used in the template.
+Binding specifies fields, and add upload feature \(to be with the `Modulename_files_center` data table will have a role\), in addition, will have "binding field \_file" \(can be used as a file download grammar\) and "bind fields \_ The new field of "var" \(the detailed parameter of the file\) can also be used in the template.
 
 1. `$col_name`:RequiredWhich field is to be bound to add the upload function. For example, if an article with article number id=1 is to upload an attachment or image, the field name can be bound `id`.
 2. `$index_mode`: \(The default is `small`\) In the `index`list mode, there are several options for the file to be displayed:

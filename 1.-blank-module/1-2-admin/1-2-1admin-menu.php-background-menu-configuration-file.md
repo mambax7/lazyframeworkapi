@@ -8,11 +8,9 @@ $TadMod->add_adm_menu('Module management', 'admin/main.php', 'images/admin/butto
 $adminmenu = $TadMod->get_adm_menu();
 ```
 
-Copy
-
 We are here to use the `add_adm_menu()`setting background page menu
 
 Do not move the rest
 
-`add_adm_menu()`Please refer to: [https://campus-xoops.tn.edu.tw/modules/tad\_book3/page.php?tbdsn=1643](https://campus-xoops.tn.edu.tw/modules/tad_book3/page.php?tbdsn=1643)
+`add_adm_menu()`Please refer to: [API Tutorial](https://xoops.gitbook.io/jill-lazy-framework-api/2.tadmod-class/untitled/2-6-add-background-menu-add_adm_menu-usdtitle-usdvalue)
 
