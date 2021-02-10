@@ -1,1 +1,1 @@
-# lazyframework
+# Jill Lazy Framework API
