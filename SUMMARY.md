@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Jill Lazy Framework API](README.md)
+* [Lazy Framework API](README.md)
 
 ## 1. Blank module
 

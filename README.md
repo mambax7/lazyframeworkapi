@@ -1,2 +1,2 @@
-# Jill Lazy Framework API
+# Lazy Framework API
 
